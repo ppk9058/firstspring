@@ -11,12 +11,12 @@
   </welcome-file-list>
   
   <servlet>
-  <servlet-name>dad-frontcontroller-dispatcher</servlet-name>
+  <servlet-name>dad-frontcontroller</servlet-name>
   <servlet-class>org.springframework.test.web.servlet.TestDispatcherServlet</servlet-class>
   <load-on-startup>1</load-on-startup>
   </servlet>
   <servlet-mapping>
-  <servlet-name>dad-frontcontroller-dispatcher</servlet-name>
+  <servlet-name>dad-frontcontroller</servlet-name>
   <url-pattern>/home.com/*</url-pattern>
   </servlet-mapping>
 </web-app>
